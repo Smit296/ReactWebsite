@@ -8,12 +8,12 @@
 }
 
 .navbar {
-  background-color: #fff !important;
+  background-color: #fff ;
 }
 
 .navbar-brand {
-  font-size: 1.9rem !important;
-  color: #565387 !important;
+  font-size: 1.9rem; 
+  color: #565387 ;
 }
 
 .navbar a {
@@ -27,12 +27,12 @@
 }
 
 .navbar a:hover {
-  color: #3498db !important;
+  color: #3498db;
 }
 
 @media (max-width: 991px) {
   .navbar-brand {
-    font-size: 1.5rem !important;
+    font-size: 1.5rem;
   }
 
   .menu_active {
@@ -97,7 +97,7 @@
   0% {
     transform: translateY(10px);
   }
-  100% {
+  50% {
     transform: translateY(-10px);
   }
 }
@@ -128,7 +128,7 @@ footer p {
 
 /* responsive code */
 
-@media (max-width: 991px) {
+@media(max-width: 991px) {
   #header {
     height: 80vh;
     text-align: center;

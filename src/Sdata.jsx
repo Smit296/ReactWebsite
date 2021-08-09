@@ -2,7 +2,7 @@ import Hospital from "../src/images/Hospital.jpg";
 import Coupons from "../src/images/Coupons.jpeg";
 import Login from "../src/images/Login.jpg";
 import School from "../src/images/School.jpg";
-import Piano from "../src/images/Piano.jpeg";
+//import Piano from "../src/images/Piano.jpeg";
 
 
 const Sdata = [
