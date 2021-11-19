@@ -1,32 +1,46 @@
-import Hospital from "../src/images/Hospital.jpg";
-import Coupons from "../src/images/Coupons.jpeg";
-import Login from "../src/images/Login.jpg";
-import School from "../src/images/School.jpg";
-import Weather from "../src/images/Weather.jpg";
-//import Piano from "../src/images/Piano.jpeg";
 
+import dairy_1 from "../src/images/dairy_1.jpg";
+import cafe1 from "../src/images/cafe1.png";
+import int1 from "../src/images/I9.jpeg";
+import house13 from "../src/images/H13.jpg";
+import Land1 from "../src/images/L1.jpeg";
+
+//import pdf from "../src/images/Fenil.pdf";
+
+import { useState } from "react";
+
+
+//import Piano from "../src/images/Piano.jpeg";
 
 const Sdata = [
   {
-    imgsrc: Hospital,
-    title: "Hospital Management Software(Desktop Appplication For C#)",
+    imgsrc: dairy_1,
+   
+    title: "Sumul Dairy Project",
+    clicked:"clicked1"  
   },
   {
-    imgsrc: Coupons,
-    title: "Online Discount Coupons Management Software(Web Application For PHP)",
+    imgsrc: cafe1,
+    title: "Cafe Shop",
+    clicked:"clicked2"  
   },
+
   {
-    imgsrc: Login,
-    title: "Online Patients Appointment Software(Web Application For Asp.net)",
+    imgsrc: int1,
+    title: "Interior Design",
+    clicked:"clicked3"  
   },
+   
   {
-    imgsrc: School,
-    title: "School Management Software(Web Application For HTML,CSS,Bootstrap)",
+    imgsrc: house13,
+    title: "Housing Plan",
+    clicked:"clicked4"  
   },
-  
+   
   {
-    imgsrc: Weather ,
-    title: "Weather App(Web Application For Node.js)",
+    imgsrc: Land1,
+    title: "landscape design",
+    clicked:"clicked5"  
   },
 ];
 

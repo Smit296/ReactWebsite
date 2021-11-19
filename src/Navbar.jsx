@@ -17,7 +17,7 @@ const Navbar=()=>
 
         <nav className="navbar navbar-expand-lg navbar-light bg-light">
         <div className="container-fluid">
-  <NavLink className="navbar-brand" to='/'>Smit Donga</NavLink>
+  <NavLink className="navbar-brand" to='/'>Fenil Antala</NavLink>
   <button
                   className="navbar-toggler collapsed"
                   type="button"

@@ -5,6 +5,8 @@ import Sdata from './Sdata';
 
 const Projects=()=>
 {
+    
+
   return (
   <>
       <div className="my-5">
@@ -21,9 +23,12 @@ const Projects=()=>
                             return <Card
                             imgsrc={val.imgsrc}
                             title={val.title}
-                            />
-
+                            file={val.File}
+                            clicked={val.clicked}
+                            val={val}
                             
+                            />
+  
                         }
                         )
                     }
